@@ -1,0 +1,10 @@
+[2019-11-26 20:29:52] INFO: Reserved port 9009
+[2019-11-26 20:29:52] INFO: Listening to port 9009
+[2019-11-26 20:30:19] WARNING: There is an error when trying to bind 9009
+[2019-11-26 20:30:25] WARNING: There is an error when trying to bind 9009
+[2019-11-26 20:30:28] WARNING: There is an error when trying to bind 9009
+[2019-11-26 20:42:19] CRITICAL: Server critical failure.
+
+[2019-11-27 19:40:07] WARNING: There is an error when trying to bind A
+[2019-11-27 19:40:13] CRITICAL: Server critical failure.
+None

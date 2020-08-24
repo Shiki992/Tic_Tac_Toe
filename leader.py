@@ -1,14 +1,14 @@
 import mysql.connector as mdb
+def display():
+  mydb = mdb.connect(
+    host="localhost",
+    user="root",
+    passwd="123456789",
+    database="tictactoe"
+  )
 
-mydb = mdb.connect(
-  host="localhost",
-  user="root",
-  passwd="123456789",
-  database="tictactoe"
-)
+  mycursor2 = mydb.cursor()
+  mycursor2.execute("select * from players")
 
-mycursor2 = mydb.cursor()
-mycursor2.execute("select * from players")
-
-for tb in mycursor2:
-   print(tb)
+  for tb in mycursor2:
+    print(tb)
